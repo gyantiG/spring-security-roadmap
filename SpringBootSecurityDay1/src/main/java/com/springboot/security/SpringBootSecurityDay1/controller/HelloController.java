@@ -41,4 +41,10 @@ public class HelloController {
 		return "this is the admin api";
 	}
 
+	// task 6
+	@GetMapping("/employee")
+	public String employee() {
+		return "this is the employee api";
+	}
+
 }
