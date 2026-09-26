@@ -35,4 +35,10 @@ public class HelloController {
 		return "this is the admin api";
 	}
 
+	// task 5
+	@GetMapping("/profile")
+	public String profile() {
+		return "this is the admin api";
+	}
+
 }
